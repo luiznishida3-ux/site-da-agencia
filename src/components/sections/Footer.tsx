@@ -1,4 +1,3 @@
-import { Mail } from 'lucide-react'
 import { Logo } from '../ui/Logo'
 import { InstagramIcon, WhatsAppIcon } from '../ui/BrandIcons'
 import { nav, site, whatsapp } from '../../lib/site'
@@ -7,7 +6,6 @@ export function Footer() {
   const contacts = [
     { icon: <InstagramIcon className="h-4 w-4" />, label: site.instagramHandle, href: site.instagram },
     { icon: <WhatsAppIcon className="h-4 w-4" />, label: site.whatsappDisplay, href: whatsapp() },
-    { icon: <Mail className="h-4 w-4" />, label: site.email, href: `mailto:${site.email}` },
   ]
 
   return (

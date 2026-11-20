@@ -14,6 +14,21 @@
 
   --animate-marquee: marquee 38s linear infinite;
   --animate-cube: cube 22s linear infinite;
+  --animate-bubble: bubble 2.6s ease-out infinite;
+
+  @keyframes bubble {
+    from {
+      transform: translateY(0);
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    to {
+      transform: translateY(-150px);
+      opacity: 0;
+    }
+  }
 
   @keyframes marquee {
     to {

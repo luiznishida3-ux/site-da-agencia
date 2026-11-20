@@ -9,8 +9,6 @@ export const site = {
   whatsappDisplay: '(11) 92729-0311',
   instagram: 'https://www.instagram.com/empirium_labs',
   instagramHandle: '@empirium_labs',
-  // TODO: substituir pelo e-mail comercial real da agência
-  email: 'contato@empiriumlabs.com.br',
 }
 
 export const nav = [

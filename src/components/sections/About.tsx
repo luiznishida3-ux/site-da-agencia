@@ -50,16 +50,27 @@ export function About() {
             </Reveal>
             <Reveal delay={0.06}>
               <h2 className="mt-5 text-[2.6rem] leading-[0.98] font-bold sm:text-6xl lg:text-7xl">
-                Não criamos apenas sites. <span className="text-gradient">Criamos experiências digitais.</span>
+                Não criamos apenas sites. <span className="text-gradient">Colocamos dinheiro no seu bolso.</span>
               </h2>
             </Reveal>
           </div>
           <Reveal delay={0.12}>
-            <p className="text-base leading-relaxed text-ink/65 sm:text-lg">
-              A Empirium Labs é um estúdio digital focado em uma missão: dar a pequenos negócios, empreendedores e
-              empresas uma presença profissional na internet à altura do que eles entregam. Unimos design, tecnologia
-              e estratégia para que o seu site trabalhe por você todos os dias.
-            </p>
+            <div className="space-y-4 text-base leading-relaxed text-ink/65 sm:text-lg">
+              <p>
+                Você tem um bom produto, mas <strong className="font-semibold text-ink">não sabe como divulgá-lo</strong>.
+                Enquanto isso, o concorrente aparece primeiro e leva o cliente que deveria ser seu.
+              </p>
+              <p>
+                Quem procura o seu negócio encontra um{' '}
+                <strong className="font-semibold text-ink">visual amador e sem atrativo</strong>, desconfia e vai embora
+                sem chamar. Cada visita que sai assim é{' '}
+                <strong className="font-semibold text-mint">uma venda perdida</strong>.
+              </p>
+              <p>
+                A Empirium Labs existe para acabar com isso: criamos sites e uma imagem digital que mostram o valor real
+                do seu negócio e fazem o cliente querer falar com você.
+              </p>
+            </div>
           </Reveal>
         </div>
 

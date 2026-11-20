@@ -22,7 +22,7 @@ const steps = [
   {
     icon: Send,
     title: 'Publicação',
-    text: 'Testes finais, configuração do domínio e site no ar, pronto para receber seus clientes.',
+    text: 'Testes finais, configuração do domínio e site no ar, pronto e já começando a te trazer clientes.',
   },
 ]
 

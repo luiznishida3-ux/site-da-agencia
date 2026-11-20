@@ -6,7 +6,7 @@ const items = [
   { icon: Smartphone, title: 'Responsividade', text: 'Experiência impecável no celular, tablet e computador.' },
   { icon: MousePointerClick, title: 'Navegação intuitiva', text: 'Informação organizada para o cliente encontrar o que procura sem esforço.' },
   { icon: Gauge, title: 'Performance', text: 'Páginas leves e otimizadas, que carregam rápido mesmo em conexões lentas.' },
-  { icon: Search, title: 'Estrutura SEO', text: 'Base técnica preparada para o Google entender e indexar o seu site.' },
+  { icon: Search, title: 'Estrutura SEO', text: 'Base técnica preparada para o Google entender e te colocar no topo das pesquisas.' },
   { icon: MessageCircle, title: 'Facilidade de contato', text: 'WhatsApp, telefone e redes a um toque, em todas as páginas.' },
 ]
 

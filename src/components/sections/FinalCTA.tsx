@@ -1,12 +1,12 @@
 import { Reveal } from '../ui/Reveal'
-import { Button } from '../ui/Button'
 import { WhatsAppIcon } from '../ui/BrandIcons'
+import { LabFormula } from './LabFormula'
 import { whatsapp } from '../../lib/site'
 
 export function FinalCTA() {
   return (
     <section id="contato" className="relative px-3 py-20 sm:px-5 sm:py-28">
-      <div className="noise relative mx-auto max-w-7xl overflow-hidden rounded-[2.5rem] border border-violet/30 bg-surface px-6 py-24 text-center sm:px-12 sm:py-32">
+      <div className="noise relative mx-auto max-w-7xl overflow-hidden rounded-[2.5rem] border border-violet/30 bg-surface px-4 py-20 text-center sm:px-12 sm:py-28">
         {/* orbit rings echo the hero object */}
         <div aria-hidden className="pointer-events-none absolute inset-0 grid place-items-center" style={{ perspective: 900 }}>
           <div className="absolute h-[70vmin] w-[70vmin] rounded-full border border-violet/25" style={{ transform: 'rotateX(72deg)' }} />
@@ -34,16 +34,18 @@ export function FinalCTA() {
               Vamos transformar a maneira como seus clientes enxergam seu negócio.
             </p>
           </Reveal>
-          <Reveal delay={0.18} className="mt-10">
-            <Button
+          <Reveal delay={0.18}>
+            <LabFormula />
+          </Reveal>
+          <Reveal delay={0.24} className="mt-8">
+            <a
               href={whatsapp('Olá, Empirium Labs! Quero começar o meu projeto.')}
-              external
-              magnetic
-              icon={<WhatsAppIcon className="h-5 w-5" />}
-              className="h-15 px-9 text-base"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-sm text-ink/60 underline-offset-4 transition-colors hover:text-ink hover:underline"
             >
-              Começar meu projeto
-            </Button>
+              <WhatsAppIcon className="h-4 w-4 text-mint" /> Prefere ir direto? Começar meu projeto no WhatsApp
+            </a>
           </Reveal>
         </div>
       </div>
